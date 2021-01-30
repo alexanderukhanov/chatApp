@@ -1,0 +1,48 @@
+#submit_button {
+  color: white;
+  text-decoration: none;
+}
+
+.messages {
+  border: 3px solid rgb(218, 129, 129);
+  height: 700px;
+  overflow: auto;
+}
+.users {
+  border: 3px solid rgb(218, 129, 129);
+  height: 700px;
+  overflow: auto;
+}
+
+.textinput {
+  max-width: 55%;
+  margin: 0 auto;
+}
+.admin {
+  border: 3px solid rgb(88, 15, 15);
+  display: flex;
+  width: 400px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 10px 0;
+}
+
+.user {
+  text-align: center;
+  padding: 5px;
+  margin: 7px;
+  width: 200px;
+  height: 130px;
+  border: 1px solid rgb(175, 100, 100);
+  border-radius: 15px;
+}
+
+.myButton {
+  width: 80px;
+  margin: 5px 0;
+}
+
+.leave_button {
+  width: 110px;
+  margin: 0 auto;
+}
